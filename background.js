@@ -31,7 +31,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
         }
         
         for (const match of matches) {
-          const url = match.match(/(?<=")[^"]*(?=")/g)[2];
+          const url = match.match(/(?<=src=")[^"]*(?=")/g)[0];
           const downloadUrl = url;
           console.log('Download URL:', downloadUrl);
           window.open(downloadUrl, '_blank');
