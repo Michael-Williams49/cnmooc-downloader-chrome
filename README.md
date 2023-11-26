@@ -1,5 +1,5 @@
 # CNMOOC Downloader Chrome Extension
-A Chrome extension for downloading slides on active CNMOOC page. 
+A Chrome extension for downloading files from active CNMOOC page. 
 
 ## Installation
 
@@ -14,9 +14,9 @@ A Chrome extension for downloading slides on active CNMOOC page.
 
 1. Navigate to a CNMOOC webpage containing slideshows.
 2. Click on the CNMOOC Downloader extension icon.
-3. Click on the **Download Slideshows** button in the extension popup.
+3. Click on the **Download Slideshows** or **Download Videos** button in the extension popup.
 
-The extension will then attempt to find and download available slideshows from the page.
+The extension will then attempt to find and download available files from the page.
 
 ## Troubleshooting
 
