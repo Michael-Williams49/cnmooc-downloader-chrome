@@ -1,0 +1,20 @@
+{
+  "name": "CNMOOC Downloader",
+  "version": "1.0",
+  "description": "Downloads slideshows from the current CNMOOC webpage",
+  "manifest_version": 3,
+  "permissions": [
+    "activeTab",
+    "downloads",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; script-src-elem 'self' 'unsafe-inline'; connect-src http://180.76.151.202/ https://cnmooc.org/;"
+  }
+}
