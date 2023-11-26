@@ -1,7 +1,7 @@
 {
   "name": "CNMOOC Downloader",
   "version": "1.0",
-  "description": "Downloads slideshows from the current CNMOOC webpage",
+  "description": "Downloads files from the current CNMOOC webpage",
   "manifest_version": 3,
   "permissions": [
     "activeTab",
